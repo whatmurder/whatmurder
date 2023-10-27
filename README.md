@@ -1,4 +1,4 @@
-### ¯\\__(ツ)__/¯
+### !!!
 
 This repository is currently used for school projects.
 
