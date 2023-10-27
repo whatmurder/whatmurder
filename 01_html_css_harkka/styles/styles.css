@@ -2,6 +2,22 @@ body {
     color: #cccccc;
     background-color: #191919;
     font-family: sans-serif;
-    font-size: large;
-    margin: 0.5vw;
+}
+
+.topnav {
+    background-color: inherit;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #cccccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
 }
