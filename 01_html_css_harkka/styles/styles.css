@@ -1,74 +1,46 @@
 body {
-    color: #cccccc;
-    background-color: #191919;
-    font-family: sans-serif;
+    background-color: #f0f0f0; /* Taustaväri */
 }
 
-a,
-a:visited {
+nav ul, aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li, aside li {
+    margin: 5px 0;
+}
+
+nav a {
     text-decoration: none;
-    color: inherit;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-.topnav {
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    margin-left: 160px;
-    background-color: inherit;
-    overflow: hidden;
-}
-
-.topnav a {
+main img {
     float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+    margin: 10px;
 }
 
-.sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: inherit;
-    overflow-x: hidden;
-    padding-top: 16px;
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-/* Style sidebar links */
-.sidebar a {
-    display: block;
-    padding: 10px 30px;
-    position: relative;
-    border-top: 1px solid;
-}
-
-
-.main {
-    margin-left: 160px;
-    padding: 0px 10px;
-}
-
-.title {
+table th, table td {
+    border: 1px solid #000;
+    padding: 5px;
     text-align: center;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    min-width: 30%;
+table th {
+    background-color: #333;
+    color: #fff;
 }
 
-.flex-text {
-    flex-direction: column;
-    padding-left: 1vw;
+p {
+    font-family: Arial, sans-serif; /* Erilainen fontti */
+    font-style: italic; /* Kursiivi */
 }
